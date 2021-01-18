@@ -1,8 +1,8 @@
 const telegram = require('./providers/telegram-sdk');
-const watsapp = require('./providers/whatsapp-adapter');
+const whatsapp = require('./providers/whatsapp-adapter');
 const providers = {
     'telegram': telegram,
-    'whatsapp': watsapp,
+    'whatsapp': whatsapp,
 };
 
 module.exports = {
